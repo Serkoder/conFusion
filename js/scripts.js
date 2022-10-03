@@ -17,3 +17,15 @@ $(document).ready(function () {
   $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
   });
+
+  $(document).ready(function(){
+    $("#reserve").click(function(){
+      $("#reserveTable").modal();
+    });
+  });
+
+  $(document).ready(function(){
+    $("#loginBtn").click(function(){
+      $("#loginModal").modal();
+    });
+  });
